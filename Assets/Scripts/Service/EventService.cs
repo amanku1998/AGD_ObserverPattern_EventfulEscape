@@ -15,10 +15,10 @@ public class EventService
         }
     }
 
-    public EventController OnLightSwitchToggle { get; private set; }
+    public EventController OnLightSwitchToggled { get; private set; }
 
     public EventService()
     {
-        OnLightSwitchToggle = new EventController();
+        OnLightSwitchToggled = new EventController();
     }
 }
